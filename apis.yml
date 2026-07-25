@@ -1,8 +1,23 @@
 aid: crescendo-bioscience
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crescendo-bioscience.png
 name: Crescendo Bioscience
-description: 'Crescendo Bioscience is a company surfaced as a portfolio company of kleiner-perkins and
-  added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Crescendo Bioscience was a molecular-diagnostics company based in South San Francisco,
+  known for Vectra DA (later Vectra), a multi-biomarker blood test that measures disease activity in
+  rheumatoid arthritis. Backed by Kleiner Perkins and other venture investors, it was acquired by Myriad
+  Genetics in 2014 and its diagnostic product now sits within Myriad. It has no independent public
+  developer surface: no API, developer portal, documentation, or SDKs, and its former domains no longer
+  resolve. Retained in the API Evangelist network as a VC-portfolio lead; no API artifacts apply.'
 url: https://raw.githubusercontent.com/api-evangelist/crescendo-bioscience/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +27,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+x-status: acquired
+x-acquired-by: myriad-genetics
+x-acquired-year: 2014
+x-developer-surface: none
 tags:
 - Company
 - Healthcare
+- Diagnostics
+- Molecular Diagnostics
+- Biotechnology
+- Life Sciences
+- Rheumatoid Arthritis
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
